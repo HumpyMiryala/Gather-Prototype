@@ -36,7 +36,8 @@ function nearby() {
     var distance = Math.floor(Math.sqrt(Math.pow((obj["B"][0] - obj["A"][0]),2) + Math.pow((obj["B"][1] - obj["A"][1]),2) ))
 
     if (distance < 250) {
-        console.log("Avatar nearby turn on mic and video");
+        window.alert("avatar is nearby");
+        //console.log("Avatar nearby turn on mic and video");
     }
 }
 
